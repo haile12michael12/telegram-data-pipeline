@@ -1,0 +1,13 @@
+# requirements.txt
+python-dotenv
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+dagster
+dagit
+dbt-postgres
+opencv-python
+ultralytics  # YOLOv8
+pandas
+requests

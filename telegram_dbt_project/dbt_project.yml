@@ -1,0 +1,9 @@
+models:
+  telegram_dbt_project:
+    +schema: analytics
+    marts:
+      +materialized: table
+    staging:
+      +materialized: view
+    tests:
+      +enabled: true
